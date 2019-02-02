@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="tdp.css">
+    <title>Document</title>
+</head>
+<body>       <header>Technical documentation page template</header>
+    <main id="main-doc">
+ 
+        <nav id="navbar">
+            
+            <a href="#Section_1" data-secId="Section_1" class="nav-link">Section 1</a>
+            <a href="#Section_2" data-secId="Section_2" class="nav-link">Section 2</a>
+            <a href="#Section_3" data-secId="Section_3" class="nav-link">Section 3</a>
+            <a href="#Section_4" data-secid="Section_4" class="nav-link">Section 4</a>
+            <a href="#Section_5" data-secid="Section_5" class="nav-link">Section 5</a>
+            <a href="#Section_6" data-secId="Section_6" class="nav-link">Section 6</a>
+            <a href="#Section_7" data-secId="Section_7" class="nav-link">Section 7</a>
+            <a href="#Section_8" data-secId="Section_8" class="nav-link">Section 8</a>
+            <a href="#Section_9" data-secId="Section_9" class="nav-link">Section 9</a>
+            <a href="#Section_10" data-secId="Section_10" class="nav-link">Section 10</a>
+            <a href="#Section_8" data-secId="Section_8" class="nav-link">Section 8</a>
+            <a href="#Section_9" data-secId="Section_9" class="nav-link">Section 9</a>
+            <a href="#Section_10" data-secId="Section_10" class="nav-link">Section 10</a>
+
+        </nav>
+        
+    <!--//////////sections///////////////////////////////////////////////////////////////////////////////-->
+<div class="sections">
+    <!--//////////*****section-start******///////////////////////////////////////////////////////////////////////////////-->   
+    <section id="Section_1" class="main-section">
+            <header>Section 1</header>
+            <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+            <code>&ltcode>&ampltinput type="text" name="" id="">&lt/code></code>
+            <code>&ltinput type="text" name="" id=""></code>
+            <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+            
+            <ul>List:
+                <li>First item</li>
+                <li>Second item</li>
+
+            </ul>
+        </section>
+<!--//////////section-end///////////////////////////////////////////////////////////////////////////////-->   
+    <!--//////////*****section-start******///////////////////////////////////////////////////////////////////////////////-->   
+    <section id="Section_2" class="main-section">
+            <header>Section 2</header>
+            <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+            <code>&ltcode>&ampltinput type="text" name="" id="">&lt/code></code>
+            <code>&ltinput type="text" name="" id=""></code>
+            <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+            
+            <ul>
+                <li>First item</li>
+                <li>Second item</li>
+
+            </ul>
+        </section>
+<!--//////////section-end///////////////////////////////////////////////////////////////////////////////-->   
+    <!--//////////*****section-start******///////////////////////////////////////////////////////////////////////////////-->   
+    <section id="Section_3" class="main-section">
+            <header>Section 3</header>
+            <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+            <code>&ltcode>&ampltinput type="text" name="" id="">&lt/code></code>
+            <code>&ltinput type="text" name="" id=""></code>
+            <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+            
+            <ul>
+                <li>First item</li>
+                <li>Second item</li>
+
+            </ul>
+        </section>
+<!--//////////section-end///////////////////////////////////////////////////////////////////////////////-->   
+    <!--//////////*****section-start******///////////////////////////////////////////////////////////////////////////////-->   
+    <section id="Section_4" class="main-section">
+            <header>Create a Simple JSX Element</header>
+            <p>            Intro: React is an Open Source view library created and maintained by Facebook. 
+            It's a great tool to render the User Interface (UI) of modern web applications.</p>
+
+            <p>            React uses a syntax extension of JavaScript called JSX that allows you to write 
+            HTML directly within JavaScript. This has several benefits. It lets you use the 
+            full programmatic power of JavaScript within HTML, and helps to keep your code readable. 
+            For the most part, JSX is similar to the HTML that you have already learned, however there 
+            are a few key differences that will be covered throughout these challenges.</p>
+
+            <p>            For instance, because JSX is a syntactic extension of JavaScript, you can actually 
+            write JavaScript directly within JSX. To do this, you simply include the code you want 
+            to be treated as JavaScript within curly braces: { 'this is treated as JavaScript code' }. 
+            Keep this in mind, since it's used in several future challenges.</p>
+
+            <p>            However, because JSX is not valid JavaScript, JSX code must be compiled into JavaScript. 
+            The transpiler Babel is a popular tool for this process. For your convenience, 
+            it's already added behind the scenes for these challenges. If you happen to write syntactically 
+            invalid JSX, you will see the first test in these challenges fail.</p>
+
+            <p>   It's worth noting that under the hood the challenges are calling 
+            ReactDOM.render(JSX, document.getElementById('root')). 
+            This function call is what places your JSX into React's own lightweight representation of the DOM. 
+            React then uses snapshots of its own DOM to optimize updating only specific parts of the actual DOM.</p>
+         
+            <code>
+                   <script>"const JSX =<h1>Hello JSX!</h1>;" </script> </code>
+        </section>
+<!--//////////section-end///////////////////////////////////////////////////////////////////////////////-->   
+    <!--//////////*****section-start******///////////////////////////////////////////////////////////////////////////////-->   
+    <section id="Section_5" class="main-section">
+            <header>Section 5</header>
+            <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+            <code>&ltcode>&ampltinput type="text" name="" id="">&lt/code></code>
+            <code>&ltinput type="text" name="" id=""></code>
+            <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+            
+            <ul>
+                <li>First item</li>
+                <li>Second item</li>
+
+            </ul>
+        </section>
+<!--//////////section-end///////////////////////////////////////////////////////////////////////////////-->   
+    <!--//////////*****section-start******///////////////////////////////////////////////////////////////////////////////-->   
+    <section id="Section_6" class="main-section">
+            <header>Section 6</header>
+            <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+            <code>&ltcode>&ampltinput type="text" name="" id="">&lt/code></code>
+            <code>&ltinput type="text" name="" id=""></code>
+            <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+            
+            <ul>
+                <li>First item</li>
+                <li>Second item</li>
+
+            </ul>
+        </section>
+<!--//////////section-end///////////////////////////////////////////////////////////////////////////////-->   
+    <!--//////////*****section-start******///////////////////////////////////////////////////////////////////////////////-->   
+    <section id="Section_7" class="main-section">
+            <header>Section 7</header>
+            <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+            <code>&ltcode>&ampltinput type="text" name="" id="">&lt/code></code>
+            <code>&ltinput type="text" name="" id=""></code>
+            <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+            
+            <ul>
+                <li>First item</li>
+                <li>Second item</li>
+
+            </ul>
+        </section>
+<!--//////////section-end///////////////////////////////////////////////////////////////////////////////-->   
+    <!--//////////*****section-start******///////////////////////////////////////////////////////////////////////////////-->   
+    <section id="Section_8" class="main-section">
+            <header>Section 8</header>
+            <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+            <code>&ltcode>&ampltinput type="text" name="" id="">&lt/code></code>
+            <code>&ltinput type="text" name="" id=""></code>
+            <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+            
+            <ul>
+                <li>First item</li>
+                <li>Second item</li>
+
+            </ul>
+        </section>
+<!--//////////section-end///////////////////////////////////////////////////////////////////////////////-->   
+    <!--//////////*****section-start******///////////////////////////////////////////////////////////////////////////////-->   
+    <section id="Section_9" class="main-section">
+            <header>Section 9</header>
+            <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+            <code>&ltcode>&ampltinput type="text" name="" id="">&lt/code></code>
+            <code>&ltinput type="text" name="" id=""></code>
+            <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+            
+            <ul>
+                <li>First item</li>
+                <li>Second item</li>
+
+            </ul>
+        </section>
+<!--//////////section-end///////////////////////////////////////////////////////////////////////////////-->   
+    <!--//////////*****section-start******///////////////////////////////////////////////////////////////////////////////-->   
+    <section id="Section_10" class="main-section">
+            <header>Section 10</header>
+            <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+            <code>&ltcode>&ampltinput type="text" name="" id="">&lt/code></code>
+            <code>&ltinput type="text" name="" id=""></code>
+            <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+            
+            <ul>
+                <li>First item</li>
+                <li>Second item</li>
+
+            </ul>
+        </section>
+<!--//////////section-end///////////////////////////////////////////////////////////////////////////////-->   
+
+</div>
+    </main>
+<script src="index.js"></script>
+</body>
+</html>

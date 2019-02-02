@@ -1,0 +1,93 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #fcfcfc;
+    padding: 0px;
+    margin: 0;
+    font-family : Roboto;
+ 
+}
+
+.main-section{
+
+display:flex;
+flex-direction:column;
+border-bottom:1px solid #888585;
+margin-top: 88px;
+
+
+}
+#navbar{
+    width: 25vw;
+    
+    overflow-y: auto;
+
+}
+
+section *{
+    margin: 20px;
+    
+}
+.sections section header{
+    font-weight : bold;
+    font-size : 26px;
+    color : #0d1921;
+}
+code{
+    display:inline;
+    padding: 12px;
+    border-radius: 6px;
+    background-color: rgb(194, 194, 194);
+}
+body>header{
+    position: fixed;
+    top: 0;
+text-align: center;
+  width: 100vw;
+  z-index: 100;
+    font-size : 36px;
+    color : rgb(255, 255, 255);
+    background : #284d66;
+    padding: 20px;
+
+}
+#navbar a{
+    display: block;
+    padding:5%;
+    width: 90%;
+    color: #f7f5f5;
+    background : #0d1921;
+    font-size : 18px;
+    
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+@media only screen and (min-width:800px){
+    .sections{
+        position: absolute;
+        width: 72vw;
+        right: 0;
+    }
+    #navbar{
+        position: fixed;
+        left: 0;
+        overflow-y: scroll;
+        top: 88px;
+        bottom: 0;
+    }
+    }
+    @media only screen and (max-width:799px){
+        .sections{
+            position: absolute;
+            width:95vw;
+         
+        }
+        code{
+            display:block;    
+    
+        }
+        #navbar{
+            display: none;
+        }  
+    }
